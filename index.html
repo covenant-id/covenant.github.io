@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .intro {
+      padding: 40px;
+      text-align: center;
+      background-color: white;
+    }
+    .intro h2 {
+      margin-top: 0;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .project {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>John Doe Portfolio</h1>
+  </header>
+
+  <section class="intro">
+    <h2>About Me</h2>
+    <p>Hello! I'm John, a passionate web developer specializing in creating responsive and dynamic websites. Explore my projects below.</p>
+  </section>
+
+  <section class="projects">
+    <div class="project">
+      <h3>Project One</h3>
+      <p>A responsive landing page built with HTML, CSS, and JavaScript for a marketing agency.</p>
+    </div>
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>An e-commerce website with integrated payment gateways using React and Node.js.</p>
+    </div>
+    <div class="project">
+      <h3>Project Three</h3>
+      <p>A personal blog site developed with Django featuring user authentication and CMS capabilities.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 John Doe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
